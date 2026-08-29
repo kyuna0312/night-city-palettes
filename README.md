@@ -93,6 +93,22 @@ osascript -e 'tell application "System Events" to set picture of every desktop t
 
 ---
 
+## Folder icon
+
+A teal recolor of the macOS folder icon, in [`extras/`](extras/):
+
+<img src="extras/folder-icon.png" width="120" alt="Box UK teal folder icon" />
+
+Apply it to any folder(s) with the helper script:
+
+```sh
+extras/set-folder-icon.sh ~/Desktop/my-folder ~/projects/another
+```
+
+It sets the custom icon via `NSWorkspace` (built into macOS — no extra tools).
+
+---
+
 ## Usage
 
 **kitty** — `cp themes/kitty.conf ~/.config/kitty/boxuk.conf`, then in `kitty.conf`:

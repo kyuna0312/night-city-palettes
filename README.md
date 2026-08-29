@@ -76,6 +76,23 @@ Machine-readable single source of truth: [`palette.json`](palette.json).
 
 ---
 
+## Wallpaper
+
+A matching desktop wallpaper (deep blue-grey ground, corner teal glow, subtle
+grid + brand ring) lives in [`wallpapers/`](wallpapers/):
+
+<img src="wallpapers/boxuk-contrast-1920x1080.png" width="480" alt="Box UK Contrast wallpaper" />
+
+- [`boxuk-contrast-3840x2160.png`](wallpapers/boxuk-contrast-3840x2160.png) — 2×, for Retina / 4K
+- [`boxuk-contrast-1920x1080.png`](wallpapers/boxuk-contrast-1920x1080.png) — 1×, 1080p
+
+**macOS** — set it from the terminal:
+```sh
+osascript -e 'tell application "System Events" to set picture of every desktop to "'"$PWD"'/wallpapers/boxuk-contrast-3840x2160.png"'
+```
+
+---
+
 ## Usage
 
 **kitty** — `cp themes/kitty.conf ~/.config/kitty/boxuk.conf`, then in `kitty.conf`:

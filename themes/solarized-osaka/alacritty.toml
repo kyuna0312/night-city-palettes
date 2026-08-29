@@ -1,0 +1,28 @@
+# Solarized Osaka — Alacritty
+[colors.primary]
+background = "#00141a"
+foreground = "#839495"
+[colors.cursor]
+text   = "#00141a"
+cursor = "#15b8ae"
+[colors.selection]
+text       = "#00141a"
+background = "#2aa298"
+[colors.normal]
+black   = "#00141a"
+red     = "#dc312e"
+green   = "#859900"
+yellow  = "#b28600"
+blue    = "#2f879d"
+magenta = "#d33682"
+cyan    = "#2aa298"
+white   = "#839495"
+[colors.bright]
+black   = "#22464f"
+red     = "#ca4c16"
+green   = "#15b8ae"
+yellow  = "#b28600"
+blue    = "#5a8c9e"
+magenta = "#9c7fd2"
+cyan    = "#4fd1c5"
+white   = "#a6b6b6"

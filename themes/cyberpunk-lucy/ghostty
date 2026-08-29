@@ -1,0 +1,22 @@
+# Cyberpunk: Edgerunners (Lucy) — Ghostty
+background = 0a0e1a
+foreground = c8d6f0
+cursor-color = 00d4d4
+selection-background = 37e0ff
+selection-foreground = 0a0e1a
+palette = 0=#0a0e1a
+palette = 1=#ff3b6b
+palette = 2=#39ff88
+palette = 3=#ffd93d
+palette = 4=#5b8cff
+palette = 5=#ff45d4
+palette = 6=#37e0ff
+palette = 7=#c8d6f0
+palette = 8=#2a3454
+palette = 9=#ff6bba
+palette = 10=#5affa0
+palette = 11=#ffe66b
+palette = 12=#7da5ff
+palette = 13=#ff7de8
+palette = 14=#5fffff
+palette = 15=#e8f0ff

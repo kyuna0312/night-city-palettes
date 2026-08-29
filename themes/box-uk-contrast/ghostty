@@ -1,12 +1,9 @@
 # Box UK Contrast — Ghostty
-# Paste into ~/.config/ghostty/config
-
 background = 161e22
 foreground = b8c7cc
 cursor-color = 15b8ae
 selection-background = 017c9d
 selection-foreground = 161e22
-
 palette = 0=#161e22
 palette = 1=#f77669
 palette = 2=#019d76
@@ -16,10 +13,10 @@ palette = 5=#b750ae
 palette = 6=#15b8ae
 palette = 7=#b8c7cc
 palette = 8=#303b47
-palette = 9=#ff5370
+palette = 9=#ff8a80
 palette = 10=#15b8ae
 palette = 11=#ffd68a
 palette = 12=#2f9dc0
-palette = 13=#ff5370
+palette = 13=#c77dbf
 palette = 14=#4fd8ce
 palette = 15=#e6e6e6

@@ -1,0 +1,22 @@
+# Solarized Osaka — Ghostty
+background = 00141a
+foreground = 839495
+cursor-color = 15b8ae
+selection-background = 2aa298
+selection-foreground = 00141a
+palette = 0=#00141a
+palette = 1=#dc312e
+palette = 2=#859900
+palette = 3=#b28600
+palette = 4=#2f879d
+palette = 5=#d33682
+palette = 6=#2aa298
+palette = 7=#839495
+palette = 8=#22464f
+palette = 9=#ca4c16
+palette = 10=#15b8ae
+palette = 11=#b28600
+palette = 12=#5a8c9e
+palette = 13=#9c7fd2
+palette = 14=#4fd1c5
+palette = 15=#a6b6b6

@@ -1,0 +1,28 @@
+# Night City Mix — Alacritty
+[colors.primary]
+background = "#0c1a1e"
+foreground = "#beccd9"
+[colors.cursor]
+text   = "#0c1a1e"
+cursor = "#1fc4c6"
+[colors.selection]
+text       = "#0c1a1e"
+background = "#22abbd"
+[colors.normal]
+black   = "#0c1a1e"
+red     = "#f9646a"
+green   = "#12ba7b"
+yellow  = "#ffd05d"
+blue    = "#4189c4"
+magenta = "#b858ca"
+cyan    = "#22abbd"
+white   = "#beccd9"
+[colors.bright]
+black   = "#2a3a40"
+red     = "#ff8a80"
+green   = "#1fc4c6"
+yellow  = "#ffe08a"
+blue    = "#5fa0d8"
+magenta = "#d44cbd"
+cyan    = "#4fd8d8"
+white   = "#dce6ee"

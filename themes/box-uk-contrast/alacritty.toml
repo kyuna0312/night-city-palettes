@@ -1,18 +1,13 @@
 # Box UK Contrast — Alacritty
-# Import into ~/.config/alacritty/alacritty.toml:  import = ["boxuk.toml"]
-
 [colors.primary]
 background = "#161e22"
 foreground = "#b8c7cc"
-
 [colors.cursor]
 text   = "#161e22"
 cursor = "#15b8ae"
-
 [colors.selection]
 text       = "#161e22"
 background = "#017c9d"
-
 [colors.normal]
 black   = "#161e22"
 red     = "#f77669"
@@ -22,13 +17,12 @@ blue    = "#017c9d"
 magenta = "#b750ae"
 cyan    = "#15b8ae"
 white   = "#b8c7cc"
-
 [colors.bright]
 black   = "#303b47"
-red     = "#ff5370"
+red     = "#ff8a80"
 green   = "#15b8ae"
 yellow  = "#ffd68a"
 blue    = "#2f9dc0"
-magenta = "#ff5370"
+magenta = "#c77dbf"
 cyan    = "#4fd8ce"
 white   = "#e6e6e6"

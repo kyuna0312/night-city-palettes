@@ -1,0 +1,22 @@
+# Night City Mix — Ghostty
+background = 0c1a1e
+foreground = beccd9
+cursor-color = 1fc4c6
+selection-background = 22abbd
+selection-foreground = 0c1a1e
+palette = 0=#0c1a1e
+palette = 1=#f9646a
+palette = 2=#12ba7b
+palette = 3=#ffd05d
+palette = 4=#4189c4
+palette = 5=#b858ca
+palette = 6=#22abbd
+palette = 7=#beccd9
+palette = 8=#2a3a40
+palette = 9=#ff8a80
+palette = 10=#1fc4c6
+palette = 11=#ffe08a
+palette = 12=#5fa0d8
+palette = 13=#d44cbd
+palette = 14=#4fd8d8
+palette = 15=#dce6ee

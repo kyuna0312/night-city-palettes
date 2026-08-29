@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="154" viewBox="0 0 1440 154" font-family="SF Mono,Menlo,monospace">
+<rect width="1440" height="154" fill="#161e22"/>
+<rect x="0" y="0" width="120" height="120" fill="#161e22"/>
+<text x="60.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">bg</text>
+<text x="60.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#161e22</text>
+<text x="60.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#161e22</text>
+<rect x="120" y="0" width="120" height="120" fill="#111519"/>
+<text x="180.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">bg_dark</text>
+<text x="180.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#111519</text>
+<text x="180.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#111519</text>
+<rect x="240" y="0" width="120" height="120" fill="#222c31"/>
+<text x="300.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">surface</text>
+<text x="300.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#222c31</text>
+<text x="300.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#222c31</text>
+<rect x="360" y="0" width="120" height="120" fill="#303b47"/>
+<text x="420.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">overlay</text>
+<text x="420.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#303b47</text>
+<text x="420.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#303b47</text>
+<rect x="480" y="0" width="120" height="120" fill="#b8c7cc"/>
+<text x="540.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">fg</text>
+<text x="540.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#b8c7cc</text>
+<text x="540.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#b8c7cc</text>
+<rect x="600" y="0" width="120" height="120" fill="#017c9d"/>
+<text x="660.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">cyan</text>
+<text x="660.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#017c9d</text>
+<text x="660.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#017c9d</text>
+<rect x="720" y="0" width="120" height="120" fill="#15b8ae"/>
+<text x="780.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">teal</text>
+<text x="780.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#15b8ae</text>
+<text x="780.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#15b8ae</text>
+<rect x="840" y="0" width="120" height="120" fill="#019d76"/>
+<text x="900.0" y="60.0" fill="#b8c7cc" font-size="13" font-weight="700" text-anchor="middle">green</text>
+<text x="900.0" y="78.0" fill="#b8c7cc" font-size="11" text-anchor="middle" opacity="0.85">#019d76</text>
+<text x="900.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#019d76</text>
+<rect x="960" y="0" width="120" height="120" fill="#ffcb6e"/>
+<text x="1020.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">yellow</text>
+<text x="1020.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#ffcb6e</text>
+<text x="1020.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#ffcb6e</text>
+<rect x="1080" y="0" width="120" height="120" fill="#f77669"/>
+<text x="1140.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">coral</text>
+<text x="1140.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#f77669</text>
+<text x="1140.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#f77669</text>
+<rect x="1200" y="0" width="120" height="120" fill="#b750ae"/>
+<text x="1260.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">purple</text>
+<text x="1260.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#b750ae</text>
+<text x="1260.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#b750ae</text>
+<rect x="1320" y="0" width="120" height="120" fill="#ff5370"/>
+<text x="1380.0" y="60.0" fill="#161e22" font-size="13" font-weight="700" text-anchor="middle">pink</text>
+<text x="1380.0" y="78.0" fill="#161e22" font-size="11" text-anchor="middle" opacity="0.85">#ff5370</text>
+<text x="1380.0" y="142" fill="#60778c" font-size="11" text-anchor="middle">#ff5370</text>
+</svg>

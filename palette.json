@@ -1,0 +1,45 @@
+{
+  "name": "Box UK Contrast",
+  "variant": "rainglow",
+  "family": "Material Ocean",
+  "source": "https://github.com/vonqo/vonqo (intellij_boxUKContrast_modfied.jar)",
+  "background": {
+    "bg": "#161e22",
+    "bg_dark": "#111519",
+    "bg_highlight": "#1b2228",
+    "surface": "#222c31",
+    "overlay": "#303b47"
+  },
+  "foreground": {
+    "fg": "#b8c7cc",
+    "fg_dim": "#60778c",
+    "fg_soft": "#e6e6e6"
+  },
+  "accents": {
+    "cyan": "#017c9d",
+    "teal": "#15b8ae",
+    "green": "#019d76",
+    "yellow": "#ffcb6e",
+    "coral": "#f77669",
+    "pink": "#ff5370",
+    "purple": "#b750ae"
+  },
+  "ansi": {
+    "black": "#161e22",
+    "red": "#f77669",
+    "green": "#019d76",
+    "yellow": "#ffcb6e",
+    "blue": "#017c9d",
+    "magenta": "#b750ae",
+    "cyan": "#15b8ae",
+    "white": "#b8c7cc",
+    "bright_black": "#303b47",
+    "bright_red": "#ff5370",
+    "bright_green": "#15b8ae",
+    "bright_yellow": "#ffd68a",
+    "bright_blue": "#2f9dc0",
+    "bright_magenta": "#ff5370",
+    "bright_cyan": "#4fd8ce",
+    "bright_white": "#e6e6e6"
+  }
+}

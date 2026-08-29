@@ -136,8 +136,12 @@ jq -r '.accents.cyan' palette.json   # #017c9d
 
 Colors extracted from the **Box UK Contrast (rainglow)** IntelliJ IDEA theme by
 [vonqo](https://github.com/vonqo/vonqo). This repo repackages that palette as a
-portable, tool-agnostic color set. Part of the
-[kyuna0312/dotfiles](https://github.com/kyuna0312/dotfiles) stack.
+portable, tool-agnostic color set.
+
+## Related
+
+- **[dotfiles](https://github.com/kyuna0312/dotfiles)** — the full macOS dev environment themed with this palette.
+- **[aeroline](https://github.com/kyuna0312/aeroline)** — a vertical Übersicht + AeroSpace status bar, themed with Box UK Contrast by default.
 
 ## License
 

@@ -1,0 +1,44 @@
+{
+  "name": "Solarized Osaka",
+  "family": "Solarized",
+  "source": "https://github.com/craftzdog/solarized-osaka.nvim",
+  "background": {
+    "bg": "#00141a",
+    "bg_dark": "#001014",
+    "bg_highlight": "#002d38",
+    "surface": "#0e3139",
+    "overlay": "#22464f"
+  },
+  "foreground": {
+    "fg": "#839495",
+    "fg_dim": "#52727a",
+    "fg_soft": "#a6b6b6"
+  },
+  "accents": {
+    "cyan": "#2aa298",
+    "teal": "#15b8ae",
+    "green": "#859900",
+    "yellow": "#b28600",
+    "coral": "#ca4c16",
+    "pink": "#dc312e",
+    "purple": "#d33682"
+  },
+  "ansi": {
+    "black": "#00141a",
+    "red": "#dc312e",
+    "green": "#859900",
+    "yellow": "#b28600",
+    "blue": "#2f879d",
+    "magenta": "#d33682",
+    "cyan": "#2aa298",
+    "white": "#839495",
+    "bright_black": "#22464f",
+    "bright_red": "#ca4c16",
+    "bright_green": "#15b8ae",
+    "bright_yellow": "#b28600",
+    "bright_blue": "#5a8c9e",
+    "bright_magenta": "#9c7fd2",
+    "bright_cyan": "#4fd1c5",
+    "bright_white": "#a6b6b6"
+  }
+}

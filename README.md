@@ -1,67 +1,58 @@
 <div align="center">
 
-# Box UK Contrast
+# Box UK Contrast — palette collection
 
-**A calm deep blue-grey + teal color palette** — Material-Ocean family, low glare, high legibility.
-Ported from the [vonqo](https://github.com/vonqo/vonqo) IntelliJ *Box UK Contrast (rainglow)* theme
-into a tool-agnostic palette + ready-to-use themes.
+**A set of calm-to-neon dark palettes for terminals, editors and UI**, plus
+ready-to-use themes, a wallpaper and a folder icon. Started as a port of the
+Box UK Contrast IntelliJ theme; now ships four related palettes you can mix
+and match.
 
-![Box UK Contrast palette](palette.svg)
+![Palette collection](palettes.svg)
 
 </div>
 
 ---
 
-## Palette
+## Palettes
 
-### Grounds
+Each palette has a JSON single-source-of-truth in [`palettes/`](palettes/)
+(grounds, foreground, accents, and a full 16-color ANSI set).
 
-| Name | Hex | Role |
-|------|-----|------|
-| `bg` | `#161e22` | primary background — editor / terminal ground |
-| `bg_dark` | `#111519` | darker ground — console, panels |
-| `bg_highlight` | `#1b2228` | line highlight, indent guide, floats |
-| `surface` | `#222c31` | raised panels, selection surfaces |
-| `overlay` | `#303b47` | line numbers, borders, bright-black |
+| Palette | Vibe | bg | accent | JSON |
+|---------|------|----|--------|------|
+| **Box UK Contrast** | calm deep blue-grey + teal (Material Ocean) | `#161e22` | `#017c9d` | [`box-uk-contrast.json`](palettes/box-uk-contrast.json) |
+| **Solarized Osaka** | muted teal/olive (Solarized) — port of [craftzdog's](https://github.com/craftzdog/solarized-osaka.nvim) | `#00141a` | `#2aa298` | [`solarized-osaka.json`](palettes/solarized-osaka.json) |
+| **Cyberpunk: Lucy** | icy blue-white + neon cyan/magenta (Edgerunners) | `#0a0e1a` | `#37e0ff` | [`cyberpunk-lucy.json`](palettes/cyberpunk-lucy.json) |
+| **Night City Mix** | the blend of all three — calm grounds, neon pop | `#0c1a1e` | `#22abbd` | [`night-city-mix.json`](palettes/night-city-mix.json) |
 
-### Text
+**Night City Mix** takes Box UK's easy-on-the-eyes grounds, Solarized Osaka's
+structural teal/blue, and Lucy's neon accents, and averages them into one
+coherent theme — the best of all three without the glare of full neon.
 
-| Name | Hex | Role |
-|------|-----|------|
-| `fg` | `#b8c7cc` | body text |
-| `fg_dim` | `#60778c` | comments, muted |
-| `fg_soft` | `#e6e6e6` | operators, punctuation |
+### Box UK Contrast — role reference
 
-### Accents
+The flagship palette, mapped to editor/terminal roles:
 
 | Name | Hex | Role |
 |------|-----|------|
-| `cyan` | `#017c9d` | keywords, tags, active states, focus |
-| `teal` | `#15b8ae` | strings, numbers, constants, cursor, links |
-| `green` | `#019d76` | functions, classes, attributes |
-| `yellow` | `#ffcb6e` | modified, warnings |
-| `coral` | `#f77669` | errors, deleted |
-| `pink` | `#ff5370` | secondary error / accent |
-| `purple` | `#b750ae` | special, dates, numbers accent |
+| **Blue-Grey** | `#161e22` | the ground everywhere — terminal, editor, bar |
+| **Surface** | `#1b2228` / `#222c31` | panels, floats, inactive tabs |
+| **Cyan** | `#017c9d` | keywords, active states, focus |
+| **Teal** | `#15b8ae` | strings, cursor, links, clock |
+| **Green** | `#019d76` | functions, classes, added |
+| **Yellow** | `#ffcb6e` | warnings, modified |
+| **Coral** | `#f77669` | errors, deleted |
+| **Purple** | `#b750ae` | special, dates, numbers |
+| **Grey-Blue FG** | `#b8c7cc` | body text |
 
-### 16-color ANSI
-
-| # | Normal | | # | Bright |
-|---|--------|-|---|--------|
-| 0 black | `#161e22` | | 8 | `#303b47` |
-| 1 red | `#f77669` | | 9 | `#ff5370` |
-| 2 green | `#019d76` | | 10 | `#15b8ae` |
-| 3 yellow | `#ffcb6e` | | 11 | `#ffd68a` |
-| 4 blue | `#017c9d` | | 12 | `#2f9dc0` |
-| 5 magenta | `#b750ae` | | 13 | `#ff5370` |
-| 6 cyan | `#15b8ae` | | 14 | `#4fd8ce` |
-| 7 white | `#b8c7cc` | | 15 | `#e6e6e6` |
+Full per-palette hex (grounds, foreground, accents, 16-color ANSI) is in each
+palette's JSON.
 
 ---
 
-## Ready-to-use themes
+## Ready-to-use themes (Box UK Contrast)
 
-Drop-in configs live in [`themes/`](themes/):
+Drop-in configs for the flagship palette live in [`themes/`](themes/):
 
 | Tool | File |
 |------|------|
@@ -72,7 +63,12 @@ Drop-in configs live in [`themes/`](themes/):
 | CSS variables | [`themes/boxuk.css`](themes/boxuk.css) |
 | IntelliJ (source) | [`themes/intellij_boxUKContrast.jar`](themes/intellij_boxUKContrast.jar) |
 
-Machine-readable single source of truth: [`palette.json`](palette.json).
+> Want a terminal theme for **Solarized Osaka**, **Lucy** or **the Mix**? Read
+> the hexes straight from that palette's JSON — the ANSI block maps 1:1 onto any
+> terminal's 16 colors:
+> ```sh
+> jq -r '.ansi' palettes/cyberpunk-lucy.json
+> ```
 
 ---
 
@@ -109,39 +105,17 @@ It sets the custom icon via `NSWorkspace` (built into macOS — no extra tools).
 
 ---
 
-## Usage
-
-**kitty** — `cp themes/kitty.conf ~/.config/kitty/boxuk.conf`, then in `kitty.conf`:
-```conf
-include boxuk.conf
-```
-
-**Ghostty** — append `themes/ghostty` to `~/.config/ghostty/config`.
-
-**Alacritty** — `cp themes/alacritty.toml ~/.config/alacritty/boxuk.toml`, then:
-```toml
-import = ["~/.config/alacritty/boxuk.toml"]
-```
-
-**Web / CSS** — import `themes/boxuk.css` and use `var(--boxuk-cyan)` etc.
-
-**Anything else** — read the hex values straight from `palette.json`:
-```bash
-jq -r '.accents.cyan' palette.json   # #017c9d
-```
-
----
-
 ## Credit
 
-Colors extracted from the **Box UK Contrast (rainglow)** IntelliJ IDEA theme by
-[vonqo](https://github.com/vonqo/vonqo). This repo repackages that palette as a
-portable, tool-agnostic color set.
+Box UK Contrast colors extracted from the **Box UK Contrast (rainglow)**
+IntelliJ IDEA theme by [vonqo](https://github.com/vonqo/vonqo). Solarized Osaka
+is [craftzdog/solarized-osaka.nvim](https://github.com/craftzdog/solarized-osaka.nvim).
+Lucy is drawn from the *Cyberpunk: Edgerunners* Lucy color identity.
 
 ## Related
 
-- **[dotfiles](https://github.com/kyuna0312/dotfiles)** — the full macOS dev environment themed with this palette.
-- **[aeroline](https://github.com/kyuna0312/aeroline)** — a vertical Übersicht + AeroSpace status bar, themed with Box UK Contrast by default.
+- **[dotfiles](https://github.com/kyuna0312/dotfiles)** — the full macOS dev environment themed with these palettes.
+- **[aeroline](https://github.com/kyuna0312/aeroline)** — a vertical Übersicht + AeroSpace status bar, themeable with any of these palettes.
 
 ## License
 

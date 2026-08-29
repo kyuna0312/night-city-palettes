@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="576" viewBox="0 0 880 576" font-family="SF Mono,Menlo,monospace">
+<rect width="880" height="576" fill="#0d1114"/>
+<text x="8" y="18" fill="#c8d6f0" font-size="13" font-weight="700">Box UK Contrast</text>
+<rect x="0" y="26" width="110" height="118" fill="#161e22"/>
+<text x="55.0" y="85.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">bg</text>
+<text x="55.0" y="101.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#161e22</text>
+<rect x="110" y="26" width="110" height="118" fill="#b8c7cc"/>
+<text x="165.0" y="85.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">fg</text>
+<text x="165.0" y="101.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#b8c7cc</text>
+<rect x="220" y="26" width="110" height="118" fill="#017c9d"/>
+<text x="275.0" y="85.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">cyan</text>
+<text x="275.0" y="101.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#017c9d</text>
+<rect x="330" y="26" width="110" height="118" fill="#15b8ae"/>
+<text x="385.0" y="85.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">teal</text>
+<text x="385.0" y="101.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#15b8ae</text>
+<rect x="440" y="26" width="110" height="118" fill="#019d76"/>
+<text x="495.0" y="85.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">green</text>
+<text x="495.0" y="101.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#019d76</text>
+<rect x="550" y="26" width="110" height="118" fill="#ffcb6e"/>
+<text x="605.0" y="85.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">yellow</text>
+<text x="605.0" y="101.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#ffcb6e</text>
+<rect x="660" y="26" width="110" height="118" fill="#f77669"/>
+<text x="715.0" y="85.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">coral</text>
+<text x="715.0" y="101.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#f77669</text>
+<rect x="770" y="26" width="110" height="118" fill="#b750ae"/>
+<text x="825.0" y="85.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">purple</text>
+<text x="825.0" y="101.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#b750ae</text>
+<text x="8" y="162" fill="#c8d6f0" font-size="13" font-weight="700">Solarized Osaka</text>
+<rect x="0" y="170" width="110" height="118" fill="#00141a"/>
+<text x="55.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">bg</text>
+<text x="55.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#00141a</text>
+<rect x="110" y="170" width="110" height="118" fill="#839495"/>
+<text x="165.0" y="229.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">fg</text>
+<text x="165.0" y="245.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#839495</text>
+<rect x="220" y="170" width="110" height="118" fill="#2aa298"/>
+<text x="275.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">cyan</text>
+<text x="275.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#2aa298</text>
+<rect x="330" y="170" width="110" height="118" fill="#15b8ae"/>
+<text x="385.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">teal</text>
+<text x="385.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#15b8ae</text>
+<rect x="440" y="170" width="110" height="118" fill="#859900"/>
+<text x="495.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">green</text>
+<text x="495.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#859900</text>
+<rect x="550" y="170" width="110" height="118" fill="#b28600"/>
+<text x="605.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">yellow</text>
+<text x="605.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#b28600</text>
+<rect x="660" y="170" width="110" height="118" fill="#ca4c16"/>
+<text x="715.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">coral</text>
+<text x="715.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#ca4c16</text>
+<rect x="770" y="170" width="110" height="118" fill="#d33682"/>
+<text x="825.0" y="229.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">purple</text>
+<text x="825.0" y="245.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#d33682</text>
+<text x="8" y="306" fill="#c8d6f0" font-size="13" font-weight="700">Cyberpunk: Edgerunners (Lucy)</text>
+<rect x="0" y="314" width="110" height="118" fill="#0a0e1a"/>
+<text x="55.0" y="373.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">bg</text>
+<text x="55.0" y="389.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#0a0e1a</text>
+<rect x="110" y="314" width="110" height="118" fill="#c8d6f0"/>
+<text x="165.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">fg</text>
+<text x="165.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#c8d6f0</text>
+<rect x="220" y="314" width="110" height="118" fill="#37e0ff"/>
+<text x="275.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">cyan</text>
+<text x="275.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#37e0ff</text>
+<rect x="330" y="314" width="110" height="118" fill="#00d4d4"/>
+<text x="385.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">teal</text>
+<text x="385.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#00d4d4</text>
+<rect x="440" y="314" width="110" height="118" fill="#39ff88"/>
+<text x="495.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">green</text>
+<text x="495.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#39ff88</text>
+<rect x="550" y="314" width="110" height="118" fill="#ffd93d"/>
+<text x="605.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">yellow</text>
+<text x="605.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#ffd93d</text>
+<rect x="660" y="314" width="110" height="118" fill="#ff8c42"/>
+<text x="715.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">coral</text>
+<text x="715.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#ff8c42</text>
+<rect x="770" y="314" width="110" height="118" fill="#b967ff"/>
+<text x="825.0" y="373.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">purple</text>
+<text x="825.0" y="389.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#b967ff</text>
+<text x="8" y="450" fill="#c8d6f0" font-size="13" font-weight="700">Night City Mix</text>
+<rect x="0" y="458" width="110" height="118" fill="#0c1a1e"/>
+<text x="55.0" y="517.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">bg</text>
+<text x="55.0" y="533.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#0c1a1e</text>
+<rect x="110" y="458" width="110" height="118" fill="#beccd9"/>
+<text x="165.0" y="517.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">fg</text>
+<text x="165.0" y="533.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#beccd9</text>
+<rect x="220" y="458" width="110" height="118" fill="#22abbd"/>
+<text x="275.0" y="517.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">cyan</text>
+<text x="275.0" y="533.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#22abbd</text>
+<rect x="330" y="458" width="110" height="118" fill="#1fc4c6"/>
+<text x="385.0" y="517.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">teal</text>
+<text x="385.0" y="533.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#1fc4c6</text>
+<rect x="440" y="458" width="110" height="118" fill="#12ba7b"/>
+<text x="495.0" y="517.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">green</text>
+<text x="495.0" y="533.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#12ba7b</text>
+<rect x="550" y="458" width="110" height="118" fill="#ffd05d"/>
+<text x="605.0" y="517.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">yellow</text>
+<text x="605.0" y="533.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#ffd05d</text>
+<rect x="660" y="458" width="110" height="118" fill="#f9646a"/>
+<text x="715.0" y="517.0" fill="#0d1114" font-size="11" font-weight="700" text-anchor="middle">coral</text>
+<text x="715.0" y="533.0" fill="#0d1114" font-size="10" text-anchor="middle" opacity="0.9">#f9646a</text>
+<rect x="770" y="458" width="110" height="118" fill="#b858ca"/>
+<text x="825.0" y="517.0" fill="#c8d6f0" font-size="11" font-weight="700" text-anchor="middle">purple</text>
+<text x="825.0" y="533.0" fill="#c8d6f0" font-size="10" text-anchor="middle" opacity="0.9">#b858ca</text>
+</svg>

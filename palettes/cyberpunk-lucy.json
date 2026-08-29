@@ -1,0 +1,45 @@
+{
+  "name": "Cyberpunk: Edgerunners (Lucy)",
+  "family": "Neon Cyberpunk",
+  "source": "Cyberpunk: Edgerunners \u2014 Lucy color identity (icy blue-white + neon cyan/magenta)",
+  "background": {
+    "bg": "#0a0e1a",
+    "bg_dark": "#060812",
+    "bg_highlight": "#141a2e",
+    "surface": "#1c2440",
+    "overlay": "#2a3454"
+  },
+  "foreground": {
+    "fg": "#c8d6f0",
+    "fg_dim": "#5a6a8c",
+    "fg_soft": "#e8f0ff"
+  },
+  "accents": {
+    "cyan": "#37e0ff",
+    "teal": "#00d4d4",
+    "green": "#39ff88",
+    "yellow": "#ffd93d",
+    "coral": "#ff8c42",
+    "pink": "#ff6bba",
+    "purple": "#b967ff",
+    "magenta": "#ff45d4"
+  },
+  "ansi": {
+    "black": "#0a0e1a",
+    "red": "#ff3b6b",
+    "green": "#39ff88",
+    "yellow": "#ffd93d",
+    "blue": "#5b8cff",
+    "magenta": "#ff45d4",
+    "cyan": "#37e0ff",
+    "white": "#c8d6f0",
+    "bright_black": "#2a3454",
+    "bright_red": "#ff6bba",
+    "bright_green": "#5affa0",
+    "bright_yellow": "#ffe66b",
+    "bright_blue": "#7da5ff",
+    "bright_magenta": "#ff7de8",
+    "bright_cyan": "#5fffff",
+    "bright_white": "#e8f0ff"
+  }
+}

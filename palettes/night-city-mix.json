@@ -1,0 +1,45 @@
+{
+  "name": "Night City Mix",
+  "family": "Blend (Box UK \u00d7 Solarized Osaka \u00d7 Lucy)",
+  "source": "A blend: Box UK calm grounds + Solarized structure + Lucy neon accents",
+  "background": {
+    "bg": "#0c1a1e",
+    "bg_dark": "#08141a",
+    "bg_highlight": "#181f2a",
+    "surface": "#10262e",
+    "overlay": "#2a3a40"
+  },
+  "foreground": {
+    "fg": "#beccd9",
+    "fg_dim": "#6e8390",
+    "fg_soft": "#dce6ee"
+  },
+  "accents": {
+    "cyan": "#22abbd",
+    "teal": "#1fc4c6",
+    "blue": "#4189c4",
+    "green": "#12ba7b",
+    "yellow": "#ffd05d",
+    "coral": "#f9646a",
+    "magenta": "#d44cbd",
+    "purple": "#b858ca"
+  },
+  "ansi": {
+    "black": "#0c1a1e",
+    "red": "#f9646a",
+    "green": "#12ba7b",
+    "yellow": "#ffd05d",
+    "blue": "#4189c4",
+    "magenta": "#b858ca",
+    "cyan": "#22abbd",
+    "white": "#beccd9",
+    "bright_black": "#2a3a40",
+    "bright_red": "#ff8a80",
+    "bright_green": "#1fc4c6",
+    "bright_yellow": "#ffe08a",
+    "bright_blue": "#5fa0d8",
+    "bright_magenta": "#d44cbd",
+    "bright_cyan": "#4fd8d8",
+    "bright_white": "#dce6ee"
+  }
+}

@@ -17,7 +17,8 @@ comes with a matching wallpaper and a macOS folder icon.
 Each palette has a JSON single-source-of-truth in [`palettes/`](palettes/)
 (grounds, foreground, accents, and a full 16-color ANSI set). App themes live
 under [`extras/<app>/<palette>`](extras/) — tokyonight-style, grouped by app —
-and are all rendered from the JSONs by [`scripts/generate.py`](scripts/generate.py).
+and are all rendered from the JSONs by [`scripts/generate.py`](scripts/generate.py)
+(the palette chart above too, by [`scripts/render_svg.py`](scripts/render_svg.py)).
 
 | Palette | Vibe | bg | accent | Files |
 |---------|------|----|--------|-------|

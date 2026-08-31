@@ -23,11 +23,13 @@ terminal themes under [`themes/<palette>/`](themes/).
 | **Box UK Contrast** | calm deep blue-grey + teal (Material Ocean) | `#161e22` | `#017c9d` | [json](palettes/box-uk-contrast.json) · [themes](themes/box-uk-contrast/) |
 | **Solarized Osaka** | muted teal/olive — port of [craftzdog's](https://github.com/craftzdog/solarized-osaka.nvim) | `#00141a` | `#2aa298` | [json](palettes/solarized-osaka.json) · [themes](themes/solarized-osaka/) |
 | **Cyberpunk: Lucy** | icy blue-white + neon cyan/magenta (Edgerunners) | `#0a0e1a` | `#37e0ff` | [json](palettes/cyberpunk-lucy.json) · [themes](themes/cyberpunk-lucy/) |
-| **Night City Mix** | the blend of all three — calm grounds, neon pop | `#0c1a1e` | `#22abbd` | [json](palettes/night-city-mix.json) · [themes](themes/night-city-mix/) |
+| **Night City Mix** | the blend of all three — calm grounds, neon pop | `#101a1f` | `#2bbcd5` | [json](palettes/night-city-mix.json) · [themes](themes/night-city-mix/) |
 
-**Night City Mix** takes Box UK's easy-on-the-eyes grounds, Solarized Osaka's
-structural teal/blue, and Lucy's neon accents, and averages them into one
-coherent theme — the pop of neon without the glare.
+**Night City Mix** is generated from the other three by
+[`scripts/blend.py`](scripts/blend.py): a gamma-correct weighted blend where
+Box UK wins the grounds (60%), Lucy wins the accents (50%) and brights (70%),
+and Solarized Osaka contributes structure throughout — the pop of neon
+without the glare. Rerun the script after touching any source palette.
 
 ---
 

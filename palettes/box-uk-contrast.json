@@ -16,12 +16,15 @@
   },
   "accents": {
     "cyan": "#017c9d",
+    "azure": "#2ba3c9",
     "teal": "#15b8ae",
     "green": "#019d76",
     "yellow": "#ffcb6e",
+    "apricot": "#ffa066",
     "coral": "#f77669",
     "pink": "#ff5370",
-    "purple": "#b750ae"
+    "purple": "#b750ae",
+    "violet": "#9d7bd8"
   },
   "ansi": {
     "black": "#161e22",

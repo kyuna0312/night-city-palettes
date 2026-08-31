@@ -1,0 +1,38 @@
+-- Solarized Osaka — WezTerm
+-- return this from your config, or merge into config.colors.
+return {
+  foreground = "#839495",
+  background = "#00141a",
+  cursor_bg = "#15b8ae",
+  cursor_fg = "#00141a",
+  cursor_border = "#15b8ae",
+  selection_fg = "#00141a",
+  selection_bg = "#2aa298",
+  scrollbar_thumb = "#22464f",
+  split = "#2aa298",
+  ansi = {
+    "#00141a", -- black
+    "#dc312e", -- red
+    "#859900", -- green
+    "#b28600", -- yellow
+    "#2f879d", -- blue
+    "#d33682", -- magenta
+    "#2aa298", -- cyan
+    "#839495", -- white
+  },
+  brights = {
+    "#22464f", -- bright black
+    "#ca4c16", -- bright red
+    "#15b8ae", -- bright green
+    "#b28600", -- bright yellow
+    "#5a8c9e", -- bright blue
+    "#9c7fd2", -- bright magenta
+    "#4fd1c5", -- bright cyan
+    "#a6b6b6", -- bright white
+  },
+  tab_bar = {
+    background = "#001014",
+    active_tab   = { bg_color = "#b28600", fg_color = "#00141a" },
+    inactive_tab = { bg_color = "#002d38", fg_color = "#839495" },
+  },
+}

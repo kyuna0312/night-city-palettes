@@ -34,7 +34,7 @@ coherent theme — the pop of neon without the glare.
 ## Use a palette
 
 **Terminal themes** — each palette has ready-to-paste `kitty.conf`, `ghostty`,
-and `alacritty.toml` files:
+`alacritty.toml`, and `wezterm.lua` files:
 
 ```sh
 # kitty — pick any palette
@@ -52,8 +52,8 @@ cat themes/night-city-mix/ghostty >> ~/.config/ghostty/config
 import = ["~/.config/alacritty/box-uk-contrast/alacritty.toml"]
 ```
 
-Box UK Contrast also ships a [WezTerm theme](themes/box-uk-contrast/wezterm.lua),
-[CSS variables](themes/box-uk-contrast/boxuk.css), and the original
+Box UK Contrast also ships
+[CSS variables](themes/box-uk-contrast/boxuk.css) and the original
 [IntelliJ theme](themes/box-uk-contrast/intellij_boxUKContrast.jar).
 
 **Anything else** — read the hexes straight from the JSON. The `ansi` block maps
@@ -68,18 +68,24 @@ jq -r '.accents.cyan' palettes/night-city-mix.json   # #22abbd
 
 ## Box UK Contrast — role reference
 
-The flagship palette, mapped to editor/terminal roles:
+The flagship palette, mapped to editor/terminal roles (as used by
+[NyanVim](https://github.com/kyuna0312/NyanVim)). Anchors carry the identity;
+azure, apricot and violet are supporting tones that keep every syntax role
+visually distinct:
 
 | Name | Hex | Role |
 |------|-----|------|
 | **Blue-Grey** | `#161e22` | the ground everywhere — terminal, editor, bar |
 | **Surface** | `#1b2228` / `#222c31` | panels, floats, inactive tabs |
-| **Cyan** | `#017c9d` | keywords, active states, focus |
+| **Cyan** | `#017c9d` | active states, focus, borders |
+| **Azure** | `#2ba3c9` | functions, properties |
 | **Teal** | `#15b8ae` | strings, cursor, links, clock |
-| **Green** | `#019d76` | functions, classes, added |
-| **Yellow** | `#ffcb6e` | warnings, modified |
+| **Green** | `#019d76` | keywords, added |
+| **Apricot** | `#ffa066` | numbers, booleans, constants |
+| **Yellow** | `#ffcb6e` | types, warnings, modified |
 | **Coral** | `#f77669` | errors, deleted |
-| **Purple** | `#b750ae` | special, dates, numbers |
+| **Purple** | `#b750ae` | special, dates |
+| **Violet** | `#9d7bd8` | todo, hints |
 | **Grey-Blue FG** | `#b8c7cc` | body text |
 
 ---
@@ -123,6 +129,7 @@ Sets the custom icon via `NSWorkspace` (built into macOS — no extra tools).
 
 ## Related
 
+- **[NyanVim](https://github.com/kyuna0312/NyanVim)** — a hand-rolled Neovim config running Box UK Contrast as its colorscheme.
 - **[dotfiles](https://github.com/kyuna0312/dotfiles)** — the full macOS dev environment themed with these palettes.
 - **[aeroline](https://github.com/kyuna0312/aeroline)** — a vertical Übersicht + AeroSpace status bar, themeable with any of these palettes.
 

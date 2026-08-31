@@ -27,6 +27,28 @@ and are all rendered from the JSONs by [`scripts/generate.py`](scripts/generate.
 | **Cyberpunk: Lucy** | icy blue-white + neon cyan/magenta (Edgerunners) | `#0a0e1a` | `#37e0ff` | [json](palettes/cyberpunk-lucy.json) · [extras](extras/) |
 | **Night City Mix** | the blend of all three — calm grounds, neon pop | `#101a1f` | `#2bbcd5` | [json](palettes/night-city-mix.json) · [extras](extras/) |
 
+### In the editor
+
+Each palette running as its [nightcity.nvim](https://github.com/kyuna0312/nightcity.nvim) style:
+
+**Night City Mix** (`nightcity-mix`)
+
+![Night City Mix in Neovim](assets/screenshot-night-city-mix.png)
+
+**Box UK Contrast** (`nightcity-boxuk`)
+
+![Box UK Contrast in Neovim](assets/screenshot-box-uk-contrast.png)
+
+**Cyberpunk: Lucy** (`nightcity-lucy`)
+
+![Cyberpunk Lucy in Neovim](assets/screenshot-cyberpunk-lucy.png)
+
+**Solarized Osaka** (`nightcity-osaka`)
+
+![Solarized Osaka in Neovim](assets/screenshot-solarized-osaka.png)
+
+---
+
 **Night City Mix** is generated from the other three by
 [`scripts/blend.py`](scripts/blend.py): a gamma-correct weighted blend where
 Box UK wins the grounds (60%), Lucy wins the accents (50%) and brights (70%),

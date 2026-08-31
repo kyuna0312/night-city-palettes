@@ -2,6 +2,7 @@
 background = 00141a
 foreground = 839495
 cursor-color = 15b8ae
+cursor-text = 00141a
 selection-background = 2aa298
 selection-foreground = 00141a
 palette = 0=#00141a

@@ -139,6 +139,7 @@ Sets the custom icon via `NSWorkspace` (built into macOS — no extra tools).
 
 ## Related
 
+- **[nightcity.nvim](https://github.com/kyuna0312/nightcity.nvim)** — all four palettes as a Neovim colorscheme (`:colorscheme nightcity`), solarized-osaka.nvim-style.
 - **[NyanVim](https://github.com/kyuna0312/NyanVim)** — a hand-rolled Neovim config running Box UK Contrast as its colorscheme.
 - **[dotfiles](https://github.com/kyuna0312/dotfiles)** — the full macOS dev environment themed with these palettes.
 - **[aeroline](https://github.com/kyuna0312/aeroline)** — a vertical Übersicht + AeroSpace status bar, themeable with any of these palettes.

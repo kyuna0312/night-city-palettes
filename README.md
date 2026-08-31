@@ -15,15 +15,16 @@ comes with a matching wallpaper and a macOS folder icon.
 ## The palettes
 
 Each palette has a JSON single-source-of-truth in [`palettes/`](palettes/)
-(grounds, foreground, accents, and a full 16-color ANSI set), and drop-in
-terminal themes under [`themes/<palette>/`](themes/).
+(grounds, foreground, accents, and a full 16-color ANSI set). App themes live
+under [`extras/<app>/<palette>`](extras/) — tokyonight-style, grouped by app —
+and are all rendered from the JSONs by [`scripts/generate.py`](scripts/generate.py).
 
 | Palette | Vibe | bg | accent | Files |
 |---------|------|----|--------|-------|
-| **Box UK Contrast** | calm deep blue-grey + teal (Material Ocean) | `#161e22` | `#017c9d` | [json](palettes/box-uk-contrast.json) · [themes](themes/box-uk-contrast/) |
-| **Solarized Osaka** | muted teal/olive — port of [craftzdog's](https://github.com/craftzdog/solarized-osaka.nvim) | `#00141a` | `#2aa298` | [json](palettes/solarized-osaka.json) · [themes](themes/solarized-osaka/) |
-| **Cyberpunk: Lucy** | icy blue-white + neon cyan/magenta (Edgerunners) | `#0a0e1a` | `#37e0ff` | [json](palettes/cyberpunk-lucy.json) · [themes](themes/cyberpunk-lucy/) |
-| **Night City Mix** | the blend of all three — calm grounds, neon pop | `#101a1f` | `#2bbcd5` | [json](palettes/night-city-mix.json) · [themes](themes/night-city-mix/) |
+| **Box UK Contrast** | calm deep blue-grey + teal (Material Ocean) | `#161e22` | `#017c9d` | [json](palettes/box-uk-contrast.json) · [extras](extras/) |
+| **Solarized Osaka** | muted teal/olive — port of [craftzdog's](https://github.com/craftzdog/solarized-osaka.nvim) | `#00141a` | `#2aa298` | [json](palettes/solarized-osaka.json) · [extras](extras/) |
+| **Cyberpunk: Lucy** | icy blue-white + neon cyan/magenta (Edgerunners) | `#0a0e1a` | `#37e0ff` | [json](palettes/cyberpunk-lucy.json) · [extras](extras/) |
+| **Night City Mix** | the blend of all three — calm grounds, neon pop | `#101a1f` | `#2bbcd5` | [json](palettes/night-city-mix.json) · [extras](extras/) |
 
 **Night City Mix** is generated from the other three by
 [`scripts/blend.py`](scripts/blend.py): a gamma-correct weighted blend where
@@ -35,35 +36,41 @@ without the glare. Rerun the script after touching any source palette.
 
 ## Use a palette
 
-**Terminal themes** — each palette has ready-to-paste `kitty.conf`, `ghostty`,
-`alacritty.toml`, and `wezterm.lua` files:
+**App themes** — every palette ships kitty, Ghostty, Alacritty, WezTerm and
+tmux files under `extras/<app>/`:
 
 ```sh
 # kitty — pick any palette
-cp themes/cyberpunk-lucy/kitty.conf ~/.config/kitty/theme.conf
+cp extras/kitty/cyberpunk-lucy.conf ~/.config/kitty/theme.conf
 # then in kitty.conf:  include theme.conf
 ```
 
 ```sh
 # Ghostty — append the palette's file to your config
-cat themes/night-city-mix/ghostty >> ~/.config/ghostty/config
+cat extras/ghostty/night-city-mix >> ~/.config/ghostty/config
 ```
 
 ```toml
 # Alacritty — import the palette's toml
-import = ["~/.config/alacritty/box-uk-contrast/alacritty.toml"]
+import = ["~/.config/alacritty/night-city-palettes/box-uk-contrast.toml"]
 ```
 
-Box UK Contrast also ships
-[CSS variables](themes/box-uk-contrast/boxuk.css) and the original
-[IntelliJ theme](themes/box-uk-contrast/intellij_boxUKContrast.jar).
+```sh
+# tmux — source the theme from your tmux.conf
+source-file ~/path/to/extras/tmux/box-uk-contrast.tmux
+```
+
+WezTerm: `require` the palette's [lua file](extras/wezterm/) from your config,
+or merge it into `config.colors`. Box UK Contrast also ships
+[CSS variables](extras/css/box-uk-contrast.css) and the original
+[IntelliJ theme](extras/intellij/box-uk-contrast.jar).
 
 **Anything else** — read the hexes straight from the JSON. The `ansi` block maps
 1:1 onto any terminal's 16 colors:
 
 ```sh
 jq -r '.ansi' palettes/cyberpunk-lucy.json
-jq -r '.accents.cyan' palettes/night-city-mix.json   # #22abbd
+jq -r '.accents.cyan' palettes/night-city-mix.json   # #2bbcd5
 ```
 
 ---
@@ -111,12 +118,12 @@ osascript -e 'tell application "System Events" to set picture of every desktop t
 
 ## Folder icon
 
-A teal recolor of the macOS folder icon, in [`extras/`](extras/):
+A teal recolor of the macOS folder icon, in [`assets/`](assets/):
 
-<img src="extras/folder-icon.png" width="120" alt="Teal folder icon" />
+<img src="assets/folder-icon.png" width="120" alt="Teal folder icon" />
 
 ```sh
-extras/set-folder-icon.sh ~/Desktop/my-folder ~/projects/another
+assets/set-folder-icon.sh ~/Desktop/my-folder ~/projects/another
 ```
 
 Sets the custom icon via `NSWorkspace` (built into macOS — no extra tools).
